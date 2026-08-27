@@ -1,0 +1,36 @@
+﻿<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Seletor de cores do Transformice</title>
+    <link rel="stylesheet" href="coresRatos.css" type="text/css">
+    <script src="jquery-3.1.1.min.js"></script>
+    <script>
+      jQuery.support.cors = true;
+    </script>
+    <script src="semantic-ui/semantic.min.js"></script>
+    <script src="pelo.js"></script>
+    <script src="seletor.js"></script>
+  </head>
+  <body>
+    <center>
+      <div id="conteinerPrincipal">
+        <div id="peloAtual">
+          <canvas height="266" width="233"></canvas>
+          <span id="corAtual"></span>
+          <p align="left">
+            <t>Clique sobre o local desejado para capturar a cor.</t>
+			<br>
+            <span class="cor"></span><input id="campoHex" readonly spellcheck="false">
+          </p>
+        </div>
+        <span class="sepH"></span>
+        <div id="listaPelos" align="left">
+          <p style="font-family: Consolas, Arial; color: #6c77c1; font-size: 12px; margin: 2px; text-align: center">
+            <t2>Aguarde...</t2>
+          </p>
+        </div>
+      </div>
+    </center>
+    <br>
+  </body>
+</html>
